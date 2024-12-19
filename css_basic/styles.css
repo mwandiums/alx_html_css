@@ -1,0 +1,96 @@
+body, main {
+    display: flex;
+}
+
+body {
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+} 
+
+header {
+    
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(166, 64, 166);
+}
+.color {
+    background-color: rgb(190, 124, 190);
+    padding: 8px 20px;
+    border-radius: 8px 15px;
+}
+
+.color:hover {
+    background-color: rgb(223, 158, 223);
+    color: aliceblue;
+    transition: all ease 300ms;
+}
+
+li {
+    display: inline;
+    justify-content: space-between !important;
+    padding: 100px;
+    list-style-type: none;
+    
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    justify-content: center;
+    color: rgb(166, 64, 166);
+}
+
+main {
+    flex-direction: row !important;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+.align {
+    text-align: center;
+    color: rgb(166, 64, 166);
+}
+
+.align-1 {
+    text-align: center;
+}
+.align-2 {
+    box-sizing: border-box;
+    margin-left: 20%;
+}
+/**
+.alx {
+    text-align: center;
+}
+    **/
+.alx {
+    text-align: center;
+    
+}
+.alx_logo {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.tweet_logo {
+    margin-left: 40px;
+    text-align: right;
+}
+
+table {
+    border: 1 solid;
+}
+td {
+    border: 1;
+}
