@@ -8,13 +8,18 @@ body {
 } 
 
 header {
-    
+    text-align: center;
 }
 
 .logo {
+    text-align: left !important;
     font-weight: bold;
     font-size: 30px;
     color: rgb(166, 64, 166);
+    margin-right: 500px;
+}
+.home {
+    
 }
 .color {
     background-color: rgb(190, 124, 190);
@@ -79,18 +84,22 @@ aside {
     
 }
 .alx_logo {
-    margin-left: 10px;
-    text-align: center;
+    margin-left: 30%;
 }
 
 .tweet_logo {
-    margin-left: 40px;
-    text-align: right;
+    margin-left: 40%;
 }
+
 
 table {
     border: 1 solid;
+    margin-left: 45%;
 }
-td {
+tr {
     border: 1;
+}
+
+footer {
+    text-align: center;
 }
